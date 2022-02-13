@@ -1,0 +1,49 @@
+#header{
+    background-color: black;
+    color: white;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    padding-left: 8rem;
+    font-size :2.5rem;
+}
+#name{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    vertical-align: bottom; 
+    padding-bottom: 4rem;
+    
+}
+.output{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+}
+#ad{
+    display: flex;
+    justify-content: center;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+}
