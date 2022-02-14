@@ -1,0 +1,23 @@
+{
+  "name": "js-assignment-1",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">JavaScript Assignment 1</h1>\r <p align=\"center\">\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariusdav/js-assignment-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariusdav/js-assignment-1/issues"
+  },
+  "homepage": "https://github.com/dariusdav/js-assignment-1#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

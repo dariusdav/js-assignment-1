@@ -28,12 +28,10 @@
 }
 #content{
     margin: 0; 
-    padding: 3rem;
-    width: 54rem;
-
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2rem;
     flex-wrap: wrap;
     vertical-align: bottom; 
     padding-bottom: 4rem;
@@ -53,7 +51,6 @@
     border-radius: 5px;
     padding: 1rem;
     padding-top: 2rem;
-    width: 50rem;
     background-color: rgb(249, 249, 249);
     display: flex;
     flex-direction: row;
