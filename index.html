@@ -1,48 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/stylesheet.css" rel="stylesheet" />
-    <link defer href="js/index.js" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header id="header">Komputer Store</header>
-    <main>
-        <section class="section">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/stylesheet.css" rel="stylesheet" />
+  <script src="js/index.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="header">Komputer Store</header>
+  <main>
+    <section class="section">
       <div id="content">
         <div id="userInfoSection" class="container">
           <span id="name">Joe Banker</span>
           <div class="output">
             <span id="balance"> balance </span>
-            <span id="amount">0</span>
+            <span id="balanceAmount">0</span>
           </div>
-          <button id="getLoanButton">Get a Loan</button>
+          <div class="output">
+            <span id="loan"> loan </span>
+            <span id="loanAmount">0</span>
+          </div>
+          <button id="getLoanButton" class="btn">Get a Loan</button>
+          <button id="repayButton"class="btn">Repay Loan</button>
         </div>
         <div id="WorkSection" class="container">
           <span id="name">Work</span>
           <div class="output">
             <span id="pay">pay</span>
-            <span id="payAmount">0</span>
+            <span id="workAmount">0</span>
           </div>
           <div class="output">
-              <button id="bankButton">Bank</button>
-              <button id="workButton">Work</button>
+            <button id="bankButton" class="btn">Bank</button>
+            <button id="workButton" class="btn">Work</button>
           </div>
         </div>
         <div id="rewardSection" class="container">
           <span id="name">Laptops</span>
+          <select name="Laptops" id="laptops"></select>
+          <span id="Features">Features</span>
+          <ul id="laptopFeatures"></ul>
         </div>
       </div>
-      <div id="ad">
-          THIS IS AD 
-          THIS IS AD 
-          THIS IS AD 
-          THIS IS AD 
+      <div id="info">
+        <img src="" alt="" id="laptopImage" />
+        <div id=titleAndDescription class="subInfo">
+          <span id="imageTitle"></span>
+          <span id="imageDescription"></span>
+        </div>
+        <div id="priceAndButton" class="subInfo">
+          <div id="priceText">
+            <span id="laptopPrice"></span>
+            <span id="nok">NOK</span>
+          </div>
+          <button id="buyLaptopButton" class="btn">Buy Now</button>
+        </div>
       </div>
     </section>
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>

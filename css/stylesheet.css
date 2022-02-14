@@ -15,12 +15,22 @@
     padding-right: 0rem;
 }
 .container{
+    background-color: rgb(249, 249, 249);
+    border: 2px solid gray ;
+    border-radius: 5px;
+    margin: 0; 
+    width:  14rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    justify-content: space-evenly;
     
 }
 #content{
+    margin: 0; 
+    padding: 3rem;
+    width: 54rem;
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -39,11 +49,78 @@
     padding-right: 0rem;
 
 }
-#ad{
+#info{
+    border-radius: 5px;
+    padding: 1rem;
+    padding-top: 2rem;
+    width: 50rem;
+    background-color: rgb(249, 249, 249);
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    vertical-align: bottom; 
+    padding-bottom: 4rem;
 }
-#section{
+.section{
     display: flex;
     flex-direction: column;
+    justify-content: right;
+}
+#repayButton {
+    visibility: hidden;
+}
+.subInfo{
+    display :flex;
+    flex-direction: column;
+    justify-content: space-around;
+    vertical-align: text-top;
+}
+#imageTitle {
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.btn{
+    font-size: large;
+    border-radius: 5px;
+    border-color: darkgray;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#bankButton{
+    background-color: rgb(237, 239, 76);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+#workButton{
+    background-color: rgb(74, 113, 243);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#getLoanButton{
+    background-color: rgb(75, 240, 161);
+    font-size: large;
+    border-radius: 5px;
+    border-color: darkgray;
+}
+#buyLaptopButton{
+    background-color: rgb(75, 201, 241);
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+#laptopImage{
+    max-width: 20rem;
+}
+#laptopPrice{
+    font-size: 1.5rem;
+}
+#nok{
+    font-size: 1.5rem;
+}
+#priceText{
+    justify-content: space-around;
 }
