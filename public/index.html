@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="css/stylesheet.css" rel="stylesheet" />
   <script src="js/index.js" defer></script>
-  <title>Document</title>
+  <title>Komputer Store</title>
 </head>
 
 <body>
@@ -16,14 +16,14 @@
     <section class="section">
       <div id="content">
         <div id="userInfoSection" class="container">
-          <span id="name">Joe Banker</span>
+          <span id="name" class="text">Joe Banker</span>
           <div class="output">
-            <span id="balance"> balance </span>
-            <span id="balanceAmount">0</span>
+            <span id="balance" class="text"> balance </span>
+            <span id="balanceAmount" class="text">0</span>
           </div>
           <div class="output">
-            <span id="loan"> loan </span>
-            <span id="loanAmount">0</span>
+            <span id="loan" class="text"> loan </span>
+            <span id="loanAmount" class="text">0</span>
           </div>
           <button id="getLoanButton" class="btn">Get a Loan</button>
           <button id="repayButton"class="btn">Repay Loan</button>
@@ -31,8 +31,11 @@
         <div id="WorkSection" class="container">
           <span id="name">Work</span>
           <div class="output">
-            <span id="pay">pay</span>
-            <span id="workAmount">0</span>
+            <span id="pay"class="text">pay</span>
+            <span id="workAmount"class="text">0</span>
+          </div>
+          <div class="output">
+            <span id="hidden">You're not supposed to see this.</span>
           </div>
           <div class="output">
             <button id="bankButton" class="btn">Bank</button>
@@ -42,7 +45,7 @@
         <div id="rewardSection" class="container">
           <span id="name">Laptops</span>
           <select name="Laptops" id="laptops"></select>
-          <span id="Features">Features</span>
+          <span id="Features">Features:</span>
           <ul id="laptopFeatures"></ul>
         </div>
       </div>

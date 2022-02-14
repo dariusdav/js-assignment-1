@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 #header{
     background-color: black;
     color: white;
@@ -6,37 +10,43 @@
     padding-left: 8rem;
     font-size :2.5rem;
 }
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
 #name{
     font-size: 1.5rem;
-    font-weight: 1000;
+    font-weight: bold;
     padding-top: 2rem;
     padding-bottom: 1rem;
     padding-left: 0rem;
     padding-right: 0rem;
 }
-.container{
-    background-color: rgb(249, 249, 249);
-    border: 2px solid gray ;
-    border-radius: 5px;
-    margin: 0; 
-    width:  14rem;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-evenly;
-    
-}
 #content{
     margin: 0; 
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
     flex-wrap: wrap;
     vertical-align: bottom; 
     padding-bottom: 4rem;
-    
 }
+.container{
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
+    width:  16rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: top;
+    min-height: 20rem;
+    margin-top: 1rem;
+}
+
 .output{
     display: flex;
     flex-direction: row;
@@ -48,22 +58,17 @@
 
 }
 #info{
-    border-radius: 5px;
-    padding: 1rem;
-    padding-top: 2rem;
-    background-color: rgb(249, 249, 249);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: rgb(245, 245, 245);
+    border : 1px solid rgb(225, 225, 225);
     vertical-align: bottom; 
-    padding-bottom: 4rem;
+    flex-wrap: wrap;
 }
-.section{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-}
+
 #repayButton {
     visibility: hidden;
 }
@@ -75,7 +80,7 @@
 }
 #imageTitle {
     font-size: 1.5rem;
-    font-weight: 1000;
+    font-weight: bold;
 }
 
 .btn{
@@ -83,25 +88,29 @@
     border-radius: 5px;
     border-color: darkgray;
     padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
 #bankButton{
     background-color: rgb(237, 239, 76);
-    padding-left: 30px;
-    padding-right: 30px;
+    border-color: rgb(217, 219, 56);
+    padding-left: 35px;
+    padding-right: 35px;
 
 }
 #workButton{
     background-color: rgb(74, 113, 243);
-    padding-left: 30px;
-    padding-right: 30px;
+    border-color: rgb(54, 93, 223);
+    padding-left: 35px;
+    padding-right: 35px;
 }
 #getLoanButton{
     background-color: rgb(75, 240, 161);
+    border-color: rgb(55, 220, 141);
     font-size: large;
     border-radius: 5px;
-    border-color: darkgray;
 }
 #buyLaptopButton{
     background-color: rgb(75, 201, 241);
@@ -110,7 +119,11 @@
     
 }
 #laptopImage{
-    max-width: 20rem;
+    height: 20rem;
+    width: 20rem;
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 #laptopPrice{
     font-size: 1.5rem;
@@ -120,4 +133,53 @@
 }
 #priceText{
     justify-content: space-around;
+}
+#laptops{
+    font-size: large;
+    padding: 5px;
+    border: 1px;
+}
+
+#Features{
+    padding-top: 1.5rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+#laptopFeatures{
+    margin: 0px;
+    padding: 0px;
+    justify-content: left;
+}
+#imageTitle{
+    font-size: xx-large;
+    font-weight: 600;
+}
+#priceAndButton{
+    font-size: large;
+    font-weight: bold;
+}
+.subInfo{
+    text-align: center;
+    gap: 2rem;
+    justify-content: center;
+}
+#imageDescription{
+    display: inline-block;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.text{
+    font-size: large;
+    font-weight: 400;
+}
+
+#titleAndDescription{
+    width: 30%;
+}
+#hidden{
+    visibility: hidden;
+}
+ul {
+    padding-left: 0;
+    list-style-type:none;
 }

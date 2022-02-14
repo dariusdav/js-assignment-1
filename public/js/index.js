@@ -104,7 +104,7 @@ function addToList(data) {
 function features(computer){
     laptopList.innerHTML = ""
     for (const feat of computer.specs) {
-        const item = document.createElement("li")
+        const item = document.createElement("ul")
         item.innerText = feat
         laptopList.append(item)
     }
