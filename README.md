@@ -32,7 +32,7 @@ Start the server locally :
 
 > npm start
 
-You can now access the website locally through the  <a href=localhost:5000 >localhost:5000</a> (localhost:5000)[localhost:5000]
+You can now access the website locally through the  <a href=localhost:5000 >localhost:5000</a> [localhost:5000](localhost:5000)
 ## Maintainers
 
 [@dariusdav](https://github.com/dariusdav)
