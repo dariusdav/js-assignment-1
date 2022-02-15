@@ -11,14 +11,28 @@
 
 ## Table of Contents
 -  [Overview](#Overview)
+-  [Usage](#Usage)
 -  [Maintainers](#maintainers)
 -  [License](#license)
-
 ## Overview
-A simple website with plain javaScript and raw CSS
+A simple website with plain javaScript and raw CSS. Implemented express and node.js just as shown in the lectures as well as uploaded a demo to the heroku portal.
+http://dd-komputer-store.herokuapp.com/
 
+## Usage
 
+Download the repository:
 
+> git clone https://github.com/dariusdav/js-assignment-1.git
+
+Install the npm modules
+
+> npm install
+
+Start the server locally :
+
+> npm start
+
+You can now access the website locally through the link https://localhost:5000
 ## Maintainers
 
 [@dariusdav](https://github.com/dariusdav)

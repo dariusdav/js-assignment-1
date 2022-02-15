@@ -85,11 +85,15 @@ loanBtn.addEventListener("click", e =>{
 // Repay button repays the loan
 repayBtn.addEventListener("click", e =>{
     const loan = parseInt(loanElement.innerText)
-    const balance = parseInt(balanceElement.innerText)
-
-    if (balance > loan){
-        balanceElement.innerText = balance - loan
-        loanElement.innerText = 0
+    const work = parseInt(workElement.innerText)
+    
+    if (work > 0){
+        if(work - loan < 0) {
+            workElement.innerText = 0
+        } else {
+            workElement.innerText = work - loan
+        }
+        loanElement.innerText = loan - work
     }
 })
 // Adds data to a dropdown list.
